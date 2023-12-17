@@ -3,10 +3,10 @@
 const today = new Date();
 
 // Obtener la fecha de Navidad (25 de diciembre)
-const christmas = new Date(2023, 11, 25);
+const christmas = new Date(2023, 12, 25);
 
 // Si la fecha actual es después de Navidad, obtener la fecha de Navidad del próximo año
-if (today.getMonth() == 11 && today.getDate() <= 25) {
+if (today.getMonth() == 12 && today.getDate() <= 25) {
   christmas.setFullYear(christmas.getFullYear() + 1);
 }
 
