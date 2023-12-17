@@ -33,8 +33,8 @@ setInterval(updateClock, 1000);
 
 function countdown() {
     const now = new Date();
-    const christmas = new Date(2023, 11, 25);
-    if (now.getMonth() == 11 && now.getDate() <= 25) {
+    const christmas = new Date(2023, 12, 25);
+    if (now.getMonth() == 12 && now.getDate() <= 25) {
       christmas.setFullYear(christmas.getFullYear() + 1);
     }
     const difference = christmas.getTime() - now.getTime();
